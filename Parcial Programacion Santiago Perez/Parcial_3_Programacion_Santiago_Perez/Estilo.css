@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding:  0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+body{
+background-color: salmon;
+background-image: url(./imagenes/itl.cat_720x1280-wallpapers_96131.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+}
+
+ul{
+    list-style-type: none;
+    background-color: coral;
+    padding: 10px;
+    width: auto;
+    border-bottom: 5px solid orangered;
+}
+
+.item-menu{
+    display: inline;
+    background-color: brown;
+    padding: 10px;
+    font-weight: 1000;
+    border: 5px solid orangered;
+    cursor: pointer;
+    margin-left: 5px;
+    }
+
+.producto {
+    background-color: coral;
+    border: 3px solid orangered;
+    padding: 10px;
+    margin: 30px;
+    margin-top: 20px;
+    margin-left: 170px;
+    width: 1500px;
+
+}
+
+.contenedor-imagen {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.imagen {
+    max-width: 100px;
+    margin-right: 10px;
+    border: 3px solid dodgerblue;
+}
+
+.comprar{
+    background-color: green;
+    border: 2px solid greenyellow;
+    padding: 10px;
+    width: 150px;
+}
+
+.uno:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.uno:not(:hover){
+transition: 0.5s;
+transform: scale(1);
+}
+
+p{
+    font-size: small;
+}
+
+.titulo{
+    color: orangered;
+    background-image: url(./imagenes/26TZ62LNNNHFLM5YYVOXEHM7HQ.jpg);
+    background-size: cover;
+    background-position: 50%;
+    padding: 100px;
+    margin: 30px 10px;
+    height: 10px;
+    text-align: left ; 
+    font-weight: 200px;
+    font-size: 100px;
+    text-transform: uppercase;
+    text-shadow: 5px 5px white;
+    border-top: 5px solid orangered;
+    border-bottom: 5px solid orangered;
+}
+
+.subtitulo{
+   color: white;
+   text-align: center;
+   font-size: 60px;
+   border-top: 150px;
+   text-shadow: 3px 3px orangered;
+} 
+
+.precio{
+    text-align: center;
+    font-size: 50px;
+}
+
+.container{
+    background-color: coral;
+    margin-top: 0px;
+    border: 5px solid orangered;
+}
+
+#comprar{
+    background-color: orangered;
+    width: 100px;
+    
+}
+
+.subtitulo2{
+    margin-top: 50px;
+    margin-left: 150px;
+    text-align: left;
+    color: white;
+    text-shadow: 3px 3px orangered
+}
+
+.navegador{
+    text-align: right;
+    margin-left: 1300px;
+    border: 5px solid orangered;
+}
+
+.extras{
+    display: flex;
+    background-color: coral;
+    padding: 30px;
+    margin-bottom: 0px;
+    border-top: 5px solid orangered;
+    font-size: 20px;
+    width: auto;
+}
+
+.ext{
+    background-color: gray;
+    padding: 5px;
+    margin-left: 170px;
+    border: 3px solid orangered;
+}
